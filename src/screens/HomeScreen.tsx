@@ -100,6 +100,10 @@ export default function HomeScreen({navigation}: Props) {
 
       <View style={{marginBottom: 80}}>
         <Button title="Context_With_TS" onPress={contextHandler} />
+        <Button
+          title="ProductPage_With_TS"
+          onPress={() => navigation.navigate('Products')}
+        />
       </View>
     </View>
   );
